@@ -171,6 +171,7 @@ li button:hover {
     padding: 5px 8px;
     font-size: 11px;
   }
+
   .filtros {
     flex-direction: column;
   }
