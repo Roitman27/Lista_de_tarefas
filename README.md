@@ -50,6 +50,12 @@ Reforçar conceitos fundamentais de desenvolvimento frontend sem uso de framewor
 
 ---
 
+## 📸 Preview
+
+<img width="1375" height="916" alt="image" src="https://github.com/user-attachments/assets/aef46732-27fc-48f6-9a91-b36e11bc0dfe" />
+
+---
+
 ## 🔧 Como executar o projeto
 
 1. Clone o repositório
