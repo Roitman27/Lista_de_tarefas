@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  background: #1f2937;
+  width: 420px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.input-area button {
+  background: #3b82f6;
+  color: white;
+}
+
+.input-area button:hover {
+  background: #2563eb;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+li {
+  background: #374151;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s ease;
+}
+
+li:hover {
+  background: #4b5563;
+}
+
+li button {
+  background: #ef4444;
+  color: white;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+li button:hover {
+  background: #dc2626;
+}
+
+.concluida {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.controles {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.filtros {
+  margin: 10px 0;
+  display: flex;
+  gap: 5px;
+}
+
+.filtros button {
+  background: #4b5563;
+  color: white;
+  flex: 1;
+}
+
+.filtros button:hover {
+  background: #6b7280;
+}
+
+.filtros button.ativo {
+  background: #10b981;
+}
+
+.controles > button {
+  background: #f59e0b;
+  color: black;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.controles > button:hover {
+  background: #d97706;
+}
+
+
+/* ============================= */
+/* RESPONSIVIDADE PARA MOBILE */
+/* ============================= */
+
+@media (max-width: 480px) {
+
+  body {
+    align-items: flex-start;
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .input-area {
+    flex-direction: column;
+  }
+
+  .input-area button {
+    width: 100%;
+  }
+
+  li {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  li button {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+  .filtros {
+    flex-direction: column;
+  }
+
+  .filtros button {
+    width: 100%;
+  }
+
+  .controles > button {
+    font-size: 13px;
+  }
+
+}
